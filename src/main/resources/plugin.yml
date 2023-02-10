@@ -1,0 +1,9 @@
+name: SitPlugin
+version: '${project.version}'
+main: de.airoyster.sitplugin.Main
+api-version: 1.19
+commands:
+  sit:
+permissions:
+  system.sit:
+    default: op
